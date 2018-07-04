@@ -17,14 +17,8 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "post-css": "postcss src/sass/index.css -o src/sass/bundle.css -u autoprefixer -b \"last 2 versions\"",
-    "post-css-watch": "postcss src/sass/index.css -o src/sass/bundle.css -u autoprefixer -w",
-    "build-css": "node-sass-chokidar src/ -o src/ && npm run post-css",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start-js": "react-scripts start",
-    "start": "npm-run-all -p watch-css post-css-watch start-js",
-    "build-js": "react-scripts build",
-    "build": "npm-run-all build-css build-js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

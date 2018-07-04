@@ -2,7 +2,11 @@
 Building a web app to use as my first course I'll be releasing within the next couple months on YouTube. Will be free. 🙋
 
 ## Getting Started
-
+```
+git clone https://github.com/nicer00ster/react-recipes-start
+npm install
+npm start
+```
 
 
 ## Built With
