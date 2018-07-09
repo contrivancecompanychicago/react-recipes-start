@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import { particleParams } from '../helpers';
+import { particleParams } from '../particles';
 
 class App extends React.Component {
   render() {
